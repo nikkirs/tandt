@@ -744,7 +744,7 @@ body {
   .header__logo-box {
     position: absolute;
     top: 4rem;
-    left: 3rem; }
+    left: 4rem; }
   .header__logo {
     height: 3.5rem; }
   .header__text-box {
@@ -771,8 +771,8 @@ body {
   cursor: pointer; }
   @media (max-width: 56.25em) {
     .navigation__button {
-      top: 4rem;
-      right: 4rem; } }
+      top: 3rem;
+      right: 3rem; } }
   @media (max-width: 37.5em) {
     .navigation__button {
       top: 3.5rem;
