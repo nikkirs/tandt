@@ -377,7 +377,7 @@ body {
       @media (max-width: 56.25em) {
         .composition__photo--p1 {
           top: 0;
-          left: 10rem;
+          left: 50%;
 
           transform: scale(1.2); } }
     .composition__photo--p2 {
