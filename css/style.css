@@ -39,7 +39,13 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit; }
-
+  html,body
+  {
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden; 
+  }
 html {
   font-size: 62.5%; }
   @media (max-width: 75em) {
@@ -64,8 +70,8 @@ body {
   font-weight: 400;
   /*font-size: 16px;*/
   line-height: 1.7;
-  color: #777; }
-
+  color: #777;
+ }
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
@@ -376,9 +382,9 @@ body {
       top: -2rem; }
       @media (max-width: 56.25em) {
         .composition__photo--p1 {
-          top: 0;
-          left: 50%;
-transform:translateX(-50%);
+          top: 5vh;
+          left: 20vw;
+
           transform: scale(1.2); } }
     .composition__photo--p2 {
       right: 0;
@@ -407,14 +413,33 @@ transform:translateX(-50%);
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
-  padding: 2.5rem;
+  padding: 1rem;
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  transition: transform .3s; }
+  transition: transform .3s; 
+  width: 37rem
+}
   @media (max-width: 56.25em) {
     .feature-box {
-      padding: 2rem; } }
+      padding: 2rem; 
+      width: 40rem
+} }
+.feature-box1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform .3s; 
+  width: 50rem
+}
+  @media (max-width: 56.25em) {
+    .feature-box1 {
+      padding: 2rem; 
+      width: 40rem
+} }
   .feature-box__icon {
     font-size: 6rem;
     margin-bottom: .5rem;
@@ -427,7 +452,24 @@ transform:translateX(-50%);
         margin-bottom: 0; } }
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
-
+.projectimg{
+  height: 30rem;
+  width: 35rem;
+}
+@media (max-width: 56.25em) {
+  .projectimg{
+    height: 25rem;
+    width: 35rem;
+  }
+  }
+  .vm{
+    margin-left: 40vw;
+  }
+  @media (max-width: 56.25em) {
+    .vm{
+      margin-left: 30vw;
+    }
+    }
 .form__group:not(:last-child) {
   margin-bottom: 2rem; }
 
@@ -742,8 +784,10 @@ transform:translateX(-50%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
   @media (max-width: 37.5em) {
     .header {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
+      height: 85vh;
+
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); } }
   .header__logo-box {
     position: absolute;
     top: 4rem;
@@ -788,10 +832,11 @@ transform:translateX(-50%);
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient(#380101, #050000);
+  background-image: radial-gradient(#000, #000);
   opacity: 0.95;
   z-index: 1000;
-  transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
+  /* transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); */
+ }
   @media (max-width: 56.25em) {
     .navigation__background {
       top: 4.5rem;
@@ -809,7 +854,8 @@ transform:translateX(-50%);
   z-index: 1500;
   opacity: 0;
   width: 0;
-  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  /* transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+ }
 
 .navigation__list {
   position: absolute;
@@ -840,7 +886,7 @@ transform:translateX(-50%);
 
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
-  color: #55c57a;
+  color: #000;
   transform: translateX(1rem); }
 
 .navigation__checkbox:checked ~ .navigation__background {
@@ -894,17 +940,27 @@ transform:translateX(-50%);
       padding: 20rem 0; } }
 
 .section-features {
-  padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)), url(../img/nat-4.jpg);
+  padding: 10rem 0;
+  background-image: linear-gradient(to right bottom, rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)), url(../img/main.jpg);
   background-size: cover;
   transform: skewY(-7deg);
-  margin-top: -5rem; 
+  margin-top: -1rem; 
 margin-bottom: 100px;}
   .section-features > * {
     transform: skewY(7deg); }
   @media (max-width: 56.25em) {
     .section-features {
       padding: 10rem 0; } }
+
+
+
+      .section-features1 {
+        padding: 10rem 0;
+        margin-top: -1rem; 
+      margin-bottom: 100px;
+    text-align: center}
+
+
 
 .section-tours {
   background-color: #f7f7f7;
