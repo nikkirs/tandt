@@ -6,6 +6,7 @@
   height: 80rem;
   outline: 3px solid white;
   outline-offset: -5rem;
+  position: relative;
 }
 .feature-box2 {
   background-color: rgba(255, 255, 255, 0.8);
@@ -196,4 +197,15 @@
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem;
+}
+
+@media (max-width: 37.5em) {
+  .header__text-box {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 100;
+  }
 }
