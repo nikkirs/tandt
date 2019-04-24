@@ -42,7 +42,7 @@ app.get("/current-projects", function(req, res) {
   // res.sendFile(path.join(__dirname + "/careers.html"));
   res.render("current-projects");
 });
-app.get("/infrastructure", function(req, res) {
+app.get("/infra", function(req, res) {
   // res.sendFile(path.join(__dirname + "/careers.html"));
   res.render("infra");
 });
