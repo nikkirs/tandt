@@ -16,15 +16,15 @@ app.use(express.static("./public"));
 app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname + "/index.html"));
 });
-
-app.get("/educational", function(req, res) {
-  // res.sendFile(path.join(__dirname + "/careers.html"));
-  res.render("educational");
-});
 app.get("/infrastructure", function(req, res) {
   // res.sendFile(path.join(__dirname + "/careers.html"));
   res.render("infra");
 });
+app.get("/educational", function(req, res) {
+  // res.sendFile(path.join(__dirname + "/careers.html"));
+  res.render("educational");
+});
+
 app.get("/commercial", function(req, res) {
   // res.sendFile(path.join(__dirname + "/careers.html"));
   res.render("commercial");
