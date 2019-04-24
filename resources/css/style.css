@@ -492,24 +492,17 @@ section .bg {
   text-align: center;
 }
 
-
-
-
-
-
-
 .header1 {
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ),
-    url(../img/nat-2-large.jpg);
+    url(../../img/RVCA.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+
   position: relative;
   /*----------logo------------*/
 }
@@ -544,11 +537,12 @@ section .bg {
 }
 .header1 .patch {
   position: absolute;
-  top: 0;
-  left: 65%;
-  height: 40rem;
-  width: 30rem;
-  background-color: #d83f87;
+  top: 10%;
+  left: 60%;
+  height: 60rem;
+  width: 50rem;
+  opacity: 0.8;
+  background-color: #0ae99e;
 }
 @media (max-width: 37.5em) {
   .header1 .patch {
@@ -570,7 +564,7 @@ section .bg {
 }
 
 .event_div {
-  width: 70%;
+  width: 80%;
   text-align: center;
   margin: 10rem auto;
 }
@@ -582,8 +576,9 @@ section .bg {
   }
 }
 .event_div__1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../img/nat-1-large.jpg);
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/nat-1-large.jpg); */
+  background-color: #000;
   margin: 10rem auto;
   height: 50rem;
   outline: 3px solid white;
