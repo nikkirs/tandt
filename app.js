@@ -16,10 +16,7 @@ app.use(express.static("./public"));
 app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname + "/index.html"));
 });
-app.get("/infrastructure", function(req, res) {
-  // res.sendFile(path.join(__dirname + "/careers.html"));
-  res.render("infra");
-});
+
 app.get("/educational", function(req, res) {
   // res.sendFile(path.join(__dirname + "/careers.html"));
   res.render("educational");
@@ -45,26 +42,9 @@ app.get("/current-projects", function(req, res) {
   // res.sendFile(path.join(__dirname + "/careers.html"));
   res.render("current-projects");
 });
-app.get(
-  "/The-Perfect-Christmas-Gift-Guide-For-That-Awesome-Girl-Boss-In-Your-Life",
-  function(req, res) {
-    res.render("gift");
-  }
-);
-app.get("/thankyou", function(req, res) {
-  res.sendFile(path.join(__dirname + "/thankyou.html"));
-});
-app.get("/services", function(req, res) {
-  res.sendFile(path.join(__dirname + "/services.html"));
-});
-app.post("/contact", function(req, res) {
-  console.log(req.body.name);
-});
-app.get("/events", function(req, res) {
-  res.render("events");
-});
-app.get("/blogs", function(req, res) {
-  res.render("blog");
+app.get("/infrastructure", function(req, res) {
+  // res.sendFile(path.join(__dirname + "/careers.html"));
+  res.render("infra");
 });
 app.listen(3000, function() {
   console.log("server is listening");
