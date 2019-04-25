@@ -6,7 +6,6 @@
   height: 80rem;
   outline: 3px solid white;
   outline-offset: -5rem;
-  position: relative;
 }
 .feature-box2 {
   background-color: rgba(255, 255, 255, 0.8);
@@ -16,7 +15,7 @@
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform 0.3s;
-  width: 37rem;
+  width: 27vw;
   margin-top: 120px;
   margin-left: 100px;
 }
@@ -202,7 +201,7 @@
 @media (max-width: 37.5em) {
   .header__text-box {
     position: absolute;
-    top: 60%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
