@@ -35,7 +35,7 @@
     width: 95%;
     text-align: center;
     margin: 10rem auto;
-    height: 120rem;
+    height: 135rem;
     outline: 2px solid white;
     outline-offset: -2rem;
   }
@@ -50,6 +50,11 @@
     width: 35rem;
     margin: 40px auto;
   }
+}
+.qwerty{
+  margin-top: 100px;
+  height: 100px;
+  width: 100px;
 }
 .headeredu {
   height: 100vh;
@@ -180,7 +185,7 @@
     color: white;
     font-size: 20px;
     position: absolute;
-    top: 7%;
+    top: 9%;
     left: 50%;
     margin-bottom: 10px;
 
