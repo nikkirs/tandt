@@ -80,6 +80,7 @@ html {
 body {
   box-sizing: border-box;
   padding: 3rem;
+  padding-bottom: 0;
 }
 @media (max-width: 56.25em) {
   body {
@@ -564,6 +565,7 @@ body {
   }
 }
 .feature-box1 {
+  margin-left: 5vw;
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
   padding: 1rem;
@@ -1010,16 +1012,18 @@ body {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url(../img/i3.jpg);
+    url(../img/heh1.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
+  margin-bottom: 10px;
   /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);  */
 }
 @media (max-width: 37.5em) {
   .header {
     height: 100vh;
+    margin-bottom: 10px;
 
     /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); */
@@ -1218,12 +1222,12 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 25rem 0;
+  padding: 15rem 0;
   margin-top: -20vh;
 }
 @media (max-width: 56.25em) {
   .section-about {
-    padding: 20rem 0;
+    padding: 17rem 0;
   }
 }
 
