@@ -156,8 +156,8 @@ body {
 }
 
 .heading-tertiary {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 400;
   text-transform: uppercase;
 }
 .heading-tertiary1 {
@@ -1222,7 +1222,7 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 15rem 0;
+  padding: 20rem 0;
   margin-top: -20vh;
 }
 @media (max-width: 56.25em) {
