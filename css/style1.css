@@ -3,9 +3,10 @@
   width: 95%;
   text-align: center;
   margin: 10rem auto;
-  height: 80rem;
+  height: 85rem;
   outline: 3px solid white;
   outline-offset: -5rem;
+  position: relative;
 }
 .feature-box2 {
   background-color: rgba(255, 255, 255, 0.8);
@@ -47,7 +48,7 @@
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
     transition: transform 0.3s;
     width: 35rem;
-    margin: 30px auto;
+    margin: 40px auto;
   }
 }
 .headeredu {
@@ -79,7 +80,7 @@
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.1)
     ),
-    url(../img/sdmh1.png);
+    url(../img/SDMH.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -161,10 +162,31 @@
 
 
 .ft1{
-  color: black;
+  color: white;
   font-size: 20px;
 }
 
+.ft2{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+@media (max-width: 37.5em) {
+  .ft2{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    margin-bottom: 10px;
+
+  }
+  
+}
 .u-margin-bottom-big1 {
   margin-top: 7.5rem !important;
 }
