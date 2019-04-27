@@ -558,6 +558,19 @@ body {
   transition: transform 0.3s;
   width: 27vw;
 }
+@media (max-width: 37.5em) {
+  .feature-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+    width: 27vw;
+    margin: 10px auto;
+  }
+}
 @media (max-width: 56.25em) {
   .feature-box {
     padding: 2rem;
