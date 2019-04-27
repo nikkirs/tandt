@@ -597,7 +597,7 @@ body {
 }
 .projectimg {
   height: 30rem;
-  width: 27vw;
+  width: 25vw;
 }
 @media (max-width: 56.25em) {
   .projectimg {
@@ -869,13 +869,13 @@ body {
 
 .footer {
   background-color: rgb(74, 202, 143);
-  padding: 10rem 0;
+  padding: 0 0;
   font-size: 1.4rem;
   color: #f7f7f7;
 }
 @media (max-width: 56.25em) {
   .footer {
-    padding: 8rem 0;
+    padding: 0 0;
   }
 }
 .footer__logo-box {
@@ -1007,10 +1007,10 @@ body {
   height: 100vh;
   background-image: linear-gradient(
       to right bottom,
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.1)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ),
-    url(../img/I1.jpg);
+    url(../img/heh1.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
