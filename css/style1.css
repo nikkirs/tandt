@@ -3,7 +3,7 @@
   width: 95%;
   text-align: center;
   margin: 10rem auto;
-  height: 85rem;
+  height: 100rem;
   outline: 3px solid white;
   outline-offset: -5rem;
   position: relative;
@@ -35,7 +35,7 @@
     width: 95%;
     text-align: center;
     margin: 10rem auto;
-    height: 135rem;
+    height: 140rem;
     outline: 2px solid white;
     outline-offset: -2rem;
   }
@@ -169,13 +169,15 @@
 .ft1{
   color: white;
   font-size: 20px;
+  text-transform: uppercase;
 }
 
 .ft2{
   color: white;
+  text-transform: uppercase;
   font-size: 30px;
   position: absolute;
-  top: 12%;
+  top: 14%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
