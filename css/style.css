@@ -588,6 +588,11 @@ body {
   transition: transform 0.3s;
   width: 80vw;
 }
+@media (max-width: 37.5em) {
+  .feature-box1 {
+    margin-left: 0;
+  }
+}
 @media (max-width: 56.25em) {
   .feature-box1 {
     padding: 2rem;
