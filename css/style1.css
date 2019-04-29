@@ -1,5 +1,5 @@
 .ed {
-  background-color: rgb(0,35,102);
+  background-color: rgb(0, 35, 102);
   width: 95%;
   text-align: center;
   margin: 10rem auto;
@@ -18,7 +18,7 @@
   transition: transform 0.3s;
   width: 27vw;
   margin-top: 120px;
-  margin-left: 100px;
+  margin-left: 80px;
 }
 @media (max-width: 56.25em) {
   .feature-box {
@@ -31,7 +31,7 @@
 }
 @media (max-width: 37.5em) {
   .ed {
-    background-color: rgb(0,35,102);
+    background-color: rgb(0, 35, 102);
     width: 95%;
     text-align: center;
     margin: 10rem auto;
@@ -51,7 +51,7 @@
     margin: 40px auto;
   }
 }
-.qwerty{
+.qwerty {
   margin-top: 100px;
   height: 100px;
   width: 100px;
@@ -78,7 +78,7 @@
         clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); */
   }
 }
-.headercm{
+.headercm {
   height: 100vh;
   background-image: linear-gradient(
       to right bottom,
@@ -93,18 +93,18 @@
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);  */
 }
 @media (max-width: 37.5em) {
-  .headercm{
+  .headercm {
     height: 70vh;
 
     /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); */
   }
 }
-.headerin{
+.headerin {
   height: 100vh;
   background-image: linear-gradient(
       to right bottom,
-      rgba(0,0,0, 0.5),
+      rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
     url(../img/s2.jpg);
@@ -122,11 +122,11 @@
         clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); */
   }
 }
-.headerre{
+.headerre {
   height: 100vh;
   background-image: linear-gradient(
       to right bottom,
-      rgba(0,0,0, 0.5),
+      rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
     url(../img/mr2.png);
@@ -137,7 +137,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);  */
 }
 @media (max-width: 37.5em) {
-  .headerre{
+  .headerre {
     height: 70vh;
 
     /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
@@ -165,34 +165,31 @@
   text-align: center;
 }
 
-
-.ft1{
+.ft1 {
   color: white;
   font-size: 20px;
   text-transform: uppercase;
 }
 
-.ft2{
+.ft2 {
   color: white;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 25px;
   position: absolute;
-  top: 14%;
+  top: 14.5%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 37.5em) {
-  .ft2{
+  .ft2 {
     color: white;
     font-size: 20px;
     position: absolute;
     top: 9%;
     left: 50%;
     margin-bottom: 10px;
-
   }
-  
 }
 .u-margin-bottom-big1 {
   margin-top: 7.5rem !important;
