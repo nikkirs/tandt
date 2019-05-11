@@ -2,7 +2,7 @@ var express = require("express");
 var path = require("path");
 const ejs = require("ejs");
 var bodyParser = require("body-parser");
-//edit
+
 var app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname));
@@ -21,7 +21,10 @@ app.get("/educational", function(req, res) {
   // res.sendFile(path.join(__dirname + "/careers.html"));
   res.render("educational");
 });
-
+app.get("/landmark", function(req, res) {
+  // res.sendFile(path.join(__dirname + "/careers.html"));
+  res.render("landmark");
+});
 app.get("/commercial", function(req, res) {
   // res.sendFile(path.join(__dirname + "/careers.html"));
   res.render("commercial");
