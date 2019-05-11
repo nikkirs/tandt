@@ -1028,8 +1028,8 @@ body {
   height: 100vh;
   background-image: linear-gradient(
       to right bottom,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
     ),
     url(../img/i3.jpg);
   background-size: cover;
