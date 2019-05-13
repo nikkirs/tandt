@@ -45,6 +45,18 @@ app.get("/current-projects", function(req, res) {
   // res.sendFile(path.join(__dirname + "/careers.html"));
   res.render("current-projects");
 });
+app.get("/citations", function(req, res) {
+  // res.sendFile(path.join(__dirname + "/careers.html"));
+  res.render("citations");
+});
+app.get("/associates", function(req, res) {
+  // res.sendFile(path.join(__dirname + "/careers.html"));
+  res.render("associates");
+});
+app.get("/contact-us", function(req, res) {
+  // res.sendFile(path.join(__dirname + "/careers.html"));
+  res.render("contact-us");
+});
 app.get("/infra", function(req, res) {
   // res.sendFile(path.join(__dirname + "/careers.html"));
   res.render("infra");
