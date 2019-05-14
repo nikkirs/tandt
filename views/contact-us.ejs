@@ -18,7 +18,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <title>T & T | Engineers and Constructors</title>
-    <style></style>
+    <style>
+      #map {
+        height: 400px; /* The height is 400 pixels */
+        width: 100%; /* The width is the width of the web page */
+      }
+    </style>
   </head>
   <body>
     <div class="navigation">
@@ -71,7 +76,7 @@
             href="tel:08023377157"
             >08023377157</a
           ><br />
-         
+          <a href="tel:5551234567">Call (555)123-4567</a>
           <a href="tel:08023379102">08023379102</a><br />
           <a href="tel:+919900548120">+919900548120</a>
         </h4>
@@ -95,10 +100,32 @@
         </h4>
       </div>
     </div>
-
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <!-- Replace the value of the key parameter with your own API key. -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBiaQkB2cUXSvSmGPwsaNwyMhcv6eqF8Y&callback=initMap"
+    ></script>
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        var uluru = { lat: 13.029742, lng: 77.544838 };
+        // The map, centered at Uluru
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: uluru
+        });
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({ position: uluru, map: map });
+      }
     </script>
   </body>
 </html>
