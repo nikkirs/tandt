@@ -128,6 +128,18 @@ body {
     letter-spacing: 0.5rem;
   }
 }
+.heading-primary--sub2 {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1rem;
+  animation: moveInRight 1s ease-out;
+}
+@media (max-width: 37.5em) {
+  .heading-primary--sub2 {
+    letter-spacing: 0.5rem;
+  }
+}
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -1055,6 +1067,7 @@ body {
   top: 4rem;
   left: 4rem;
   z-index: 100;
+  border-radius: 50%;
 }
 .header__logo-box2 {
   background-color: white;
@@ -1069,15 +1082,15 @@ body {
 }
 .header__logo2 {
   height: 20.5rem;
-  width: 25.5rem;
+  width: 30.5rem;
 }
 @media (max-width: 37.5em) {
   .header__logo-box {
     background-color: white;
     opacity: 0.5;
     position: absolute;
-    top: 1.5rem;
-    left: 2rem;
+    top: 3rem;
+    left: 3rem;
     z-index: 100;
   }
   .header__logo {
