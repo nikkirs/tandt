@@ -24,6 +24,13 @@
         width: 100%; /* The width is the width of the web page */
         margin-bottom: 20px;
       }
+      @media (max-width: 37.5em) {
+        #map {
+          height: 300px; /* The height is 400 pixels */
+          width: 100%; /* The width is the width of the web page */
+          margin-bottom: 20px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -71,7 +78,7 @@
     </div>
     <div class="row">
       <div class="col-1-of-2">
-        <div id="map"></div>
+        <img src="../img/map.png" id="map" />
       </div>
       <div class="col-1-of-2">
         <h4>
@@ -108,7 +115,7 @@
     <script>
       AOS.init();
     </script>
-    <script
+    <!-- <script
       async
       defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0ho9YDQwjNWOE8jxsE1FoTYTwFa46ZWU&callback=initMap"
@@ -126,6 +133,6 @@
         // The marker, positioned at Uluru
         var marker = new google.maps.Marker({ position: uluru, map: map });
       }
-    </script>
+    </script> -->
   </body>
 </html>
